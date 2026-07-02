@@ -19,7 +19,7 @@ while True:
 
             result_consumo = calc_consumo_medio(km, litros)
 
-            print(f"O consumo médio do veículo é: {result_consumo:.3f} km/L")
+            print(f"O consumo médio do veículo é: {result_consumo:.2f} km/L")
 
         if opcao == "2":
             distancia_total = float(input("Digite a distância total da viagem (em km): "))
